@@ -9,6 +9,7 @@ function grid(rows, cols){
         for(let x = 0; x < cols; x++){
             let cell1 = document.createElement("div");
             cell.appendChild(cell1);
+            cell1.classList.add("cell");
         };
     };
 };
