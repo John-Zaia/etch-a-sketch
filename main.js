@@ -10,6 +10,10 @@ function grid(rows, cols){
             let cell1 = document.createElement("div");
             cell.appendChild(cell1);
             cell1.classList.add("cell");
+
+            cell1.addEventListener("mouseover", function () {
+                this.classList.add("hover");
+            });
         };
     };
 };

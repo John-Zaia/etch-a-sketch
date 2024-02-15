@@ -13,8 +13,9 @@ div{
     justify-content: left;
 }
 
-.cell:hover{
+.cell.hover{
     background-color: red;
+ 
 }
 
 
