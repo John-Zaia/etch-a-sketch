@@ -3,7 +3,8 @@
     border: none !important;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 
@@ -17,6 +18,13 @@ div{
     background-color: red;
  
 }
+
+#menu{
+    display: flex;
+    border: none !important;
+    justify-content: center;
+}
+
 
 
 
